@@ -75,7 +75,7 @@ resource "aws_subnet" "prod_subnet" {
   cidr_block = var.prod_subnet_cidr
 
   tags = {
-    Name = "prod_subnet"
+    Name = "Prod-Subnet"
   }
 }
 
